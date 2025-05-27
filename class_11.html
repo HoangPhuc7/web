@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>LỚP 11</title>
+		<link rel="stylesheet" href="style_main.css">
+		<script src="he_thong_ly_thuyet.js"></script>
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="nav-item">
+				
+				<a href="index.html"><img src="home.png" class="icon-home" alt="Home" style="width: 20px;"></a>
+			</div>
+			<!--Lớp 10-->
+			<div class="nav-item">
+				<a href="class_10.html">LỚP 10</a>
+				<div class="dropdown">
+					<div class="dropdown-column">
+						<a href="#">Lý thuyết</a>
+						<a href="#">Bài tập</a>
+					</div>
+				</div>
+			</div>
+
+			<!--Lớp 11-->
+			<div class="nav-item active">
+				<a href="class_11.html">LỚP 11</a>
+				<div class="dropdown">
+					<div class="dropdown-column">
+						<a href="#">Lý thuyết</a>
+						<a href="#">Bài tập</a>
+					</div>
+				</div>
+			</div>
+
+			<!--Lớp 12-->
+			<div class="nav-item">
+				<a href="class_12.html">LỚP 12</a>
+				<div class="dropdown">
+					<div class="dropdown-column">
+						<a href="#">Lý thuyết</a>
+						<a href="#">Bài tập</a>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="nav-item">
+				<a href="game.html">GIẢI TRÍ</a>
+				<div class="dropdown">
+					<div class="dropdown-column">
+						<a href="#">Giải toán "Giải phóng miền Nam"</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Phần nội dung muốn thêm gì thì thêm ở đây, ảnh, video, lời giới thiệu gì đó-->
+		<h3 style="text-align: center;">HỆ THỐNG LÝ THUYẾT CÁC MÔN HỌC LỚP 11</h3>
+
+		<div class="subject">
+			<div class="toggle" onclick="toggle('toan', this)">
+				<span class="toggle-icon">▼</span><b>TOÁN</b>
+			</div>
+			<div id="toan" class="hidden">
+				<div class="chapter">
+					<div class="toggle" onclick="toggle('toan-chuong1', this)">
+						<span class="toggle-icon">▼</span>CHƯƠNG 1. HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC
+					</div>
+					<div id="toan-chuong1" class="hidden lesson">
+						<a href="#">Bài 1. Giá trị lượng giác của góc lượng giác</a><br>
+						<a href="#">Bài 2. Công thức lượng giác</a><br>
+						<a href="#">Bài 3. Hàm số lượng giác</a><br>
+						<a href="#">Bài 4. Phương trình lượng giác cơ bản</a><br>
+						<a href="#">Bài tập cuối chương 1</a>
+					</div>
+				</div>
+				
+				<div class="chapter">
+					<div class="toggle" onclick="toggle('toan-chuong2', this)">
+						<span class="toggle-icon">▼</span>CHƯƠNG 2. DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN
+					</div>
+					<div id="toan-chuong2" class="hidden lesson">
+						<a href="#">Bài 5. Dãy số</a><br>
+						<a href="#">Bài 6. Cấp số cộng</a><br>
+						<a href="#">Bài 7. Cấp số nhân</a><br>
+						<a href="#">Bài tập cuối chương 2</a>
+					</div>
+				</div>
+
+				<div class="chapter">
+					<div class="toggle" onclick="toggle('toan-chuong3', this)">
+						<span class="toggle-icon">▼</span>CHƯƠNG 3. CÁC SỐ ĐẶC TRƯNG ĐO XU THẾ TRUNG TÂM CỦA MẪU SỐ LIỆU GHÉP NHÓM
+					</div>
+					<div id="toan-chuong3" class="hidden lesson">
+						<a href="#">Bài 8. Mẫu số liệu ghép nhóm</a><br>
+						<a href="#">Bài 9. Các số đặc trưng đo xu thế trung tâm</a><br>
+						<a href="#">Bài tập cuối chương 3</a>
+					</div>
+				</div>
+
+				<div class="chapter">
+					<div class="toggle" onclick="toggle('toan-chuong4', this)">
+						<span class="toggle-icon">▼</span>CHƯƠNG 4. QUAN HỆ SONG SONG TRONG KHÔNG GIAN
+					</div>
+					<div id="toan-chuong4" class="hidden lesson">
+						<a href="#">Bài 10. Đường thẳng và mặt phẳng trong không gian</a><br>
+						<a href="#">Bài 11. Hai đường thẳng song song</a><br>
+						<a href="#">Bài 12. Đường thẳng và mặt phẳng song song</a><br>
+						<a href="#">Bài 13. Hai mặt phẳng song song</a><br>
+						<a href="#">Bài 14. Phép chiếu song song</a><br>
+						<a href="#">Bài tập cuối chương 4</a>
+					</div>
+				</div>
+
+				<div class="chapter">
+					<div class="toggle" onclick="toggle('toan-chuong5', this)">
+						<span class="toggle-icon">▼</span>CHƯƠNG 5. GIỚI HẠN.HÀM SỐ LIÊN TỤC
+					</div>
+					<div id="toan-chuong5" class="hidden lesson">
+						<a href="#">Bài 15. Giới hạn của dãy số</a><br>
+						<a href="#">Bài 16. Giới hạn của hàm số</a><br>
+						<a href="#">Bài 17. Hàm số liên tục</a><br>
+						<a href="#">Bài tập cuối chương 5</a>
+					</div>
+				</div>
+
+				<div class="chapter">
+					<div class="toggle" onclick="toggle('toan-chuong6', this)">
+						<span class="toggle-icon">▼</span>CHƯƠNG 6. HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT
+					</div>
+					<div id="toan-chuong6" class="hidden lesson">
+						<a href="#">Bài 18. Lũy thừa với số mũ thực</a><br>
+						<a href="#">Bài 19. Lôgarit</a><br>
+						<a href="#">Bài 20. Hàm số mũ và hàm số lôgarit</a><br>
+						<a href="#">Bài 21. Phương trình, bất phương trình mũ và lôgarit</a><br>
+						<a href="#">Bài tập cuối chương 6</a>
+					</div>
+				</div>
+
+				<div class="chapter">
+					<div class="toggle" onclick="toggle('toan-chuong7', this)">
+						<span class="toggle-icon">▼</span>CHƯƠNG 7. QUAN HỆ VUÔNG GÓC TRONG KHÔNG GIAN
+					</div>
+					<div id="toan-chuong7" class="hidden lesson">
+						<a href="#">Bài 22. Hai đường thẳng vuông góc</a><br>
+						<a href="#">Bài 23. Đường thẳng vuông góc với mặt phẳng</a><br>
+						<a href="#">Bài 24. Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng</a><br>
+						<a href="#">Bài 25. Hai mặt phẳng vuông góc</a><br>
+						<a href="#">Bài 26. Khoảng cách</a><br>
+						<a href="#">Bài 27. Thể tích</a><br>
+						<a href="#">Bài tập cuối chương 7</a>
+					</div>
+				</div>
+
+				<div class="chapter">
+					<div class="toggle" onclick="toggle('toan-chuong8', this)">
+						<span class="toggle-icon">▼</span>CHƯƠNG 8. CÁC QUY TẮC TÍNH XÁC SUẤT
+					</div>
+					<div id="toan-chuong8" class="hidden lesson">
+						<a href="#">Bài 28. Biến cố hợp, biến cố giao, biến cố độc lập</a><br>
+						<a href="#">Bài 29. Công thức cộng xác suất</a><br>
+						<a href="#">Bài 30. Công thức nhân xác suất cho hai biến cố độc lập</a><br>
+						<a href="#">Bài tập cuối chương 8</a>
+					</div>
+				</div>
+
+				<div class="chapter">
+					<div class="toggle" onclick="toggle('toan-chuong9', this)">
+						<span class="toggle-icon">▼</span>CHƯƠNG 9. ĐẠO HÀM
+					</div>
+					<div id="toan-chuong9" class="hidden lesson">
+						<a href="#">Bài 31. Định nghĩa và ý nghĩa của đạo hàm</a><br>
+						<a href="#">Bài 32. Các quy tắc tính đạo hàm</a><br>
+						<a href="#">Bài 33. Đạo hàm cấp hai</a><br>
+						<a href="#">Bài tập cuối chương 9</a>
+					</div>
+				</div>
+
+
+
+
+			</div>
+			
+		</div>
+
+
+
+	</body>
+
+
+
+
+	<footer>
+		<p>Copyright © 2025 Phần mềm hỗ trợ học tập</p>
+		<p>Địa chỉ: Trường THPT Trần Đại Nghĩa, Trần Đại Nghĩa, Xã Tường Lộc, Huyện Tam Bình, Vĩnh Long</p>
+		<p>ĐT: (+84) xxx-xxx-xxxx</p>
+		<p>Email: xxxxxxxxxxxx@gmail.com</p>
+		<p>Fanpage: <i><a href="https://facebook.com/nguyen.inh.sang.735774/">xxxxx</a></i></p>
+	</footer>
+</html>
+
+
+
